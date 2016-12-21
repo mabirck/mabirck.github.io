@@ -20,8 +20,10 @@ defaults:
       path: ''
       type: 'posts'
     values:
-        layout: 'post'
+      layout: 'post'
+      comments: true
 
+comments: true
 # Build settings
 destination: _site
 paginate: 10
